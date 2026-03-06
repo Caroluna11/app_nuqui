@@ -9,10 +9,10 @@ public class Person {
     String phone;
     String city;
     String email;
-    String addres;
+    String address;
     String birthdate;
 
-    //Metodos propios
+    //own methods
 
     public Person createUser(Person person){
         return person;
@@ -22,7 +22,7 @@ public class Person {
         return person;
     }
 
-    public List<Person> getAllperson(){
+    public List<Person> getAllPerson(){
         return null;
     }
 
@@ -32,6 +32,8 @@ public class Person {
 
     public void deletePerson(int id){}
 
+
+
     //Constructor
     public Person(){}
     public Person(String idNumber, String name, String email){
@@ -40,14 +42,14 @@ public class Person {
         this.email = email;
     }
 
-    public Person(String idNumber, String name, String lastName, String phone, String city, String email, String addres, String birthdate) {
+    public Person(String idNumber, String name, String lastName, String phone, String city, String email, String address, String birthdate) {
         this.idNumber = idNumber;
         this.name = name;
         this.lastName = lastName;
         this.phone = phone;
         this.city = city;
         this.email = email;
-        this.addres = addres;
+        this.address = address;
         this.birthdate = birthdate;
     }
 
@@ -101,12 +103,12 @@ public class Person {
         this.email = email;
     }
 
-    public String getAddres() {
-        return addres;
+    public String getAddress() {
+        return address;
     }
 
-    public void setAddres(String addres) {
-        this.addres = addres;
+    public void setAddress(String address) {
+        this.address = address;
     }
 
     public String getBirthdate() {
