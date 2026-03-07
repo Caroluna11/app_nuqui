@@ -1,5 +1,5 @@
 Una aplicación de banco por:
 Carolina Bedoya 
 Darlin Estrada 
-Juliana 
-Juan David
+Juliana Montes 
+Juan David Naranjo
